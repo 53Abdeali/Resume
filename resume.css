@@ -51,7 +51,6 @@ h1{
 .contact ul li a i{
    font-size: 20px;
    padding: 3px 5px 0 0;
-   line-break:inherit;
 }
 
 .career{
@@ -253,4 +252,94 @@ h1{
     font-size: 22px;
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.declaration h2{
+    border-top: 2px solid black;
+}
+
+.declaration p{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media  screen and (max-width:600px) {
+    .contact .info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact ul li a{
+        display: flex;
+        justify-content:start;
+        color: rgb(58, 47, 58);
+        text-align: left;
+        font-size: 1.2rem;
+        font-weight: 100;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        
+    }
+    
+    .contact ul li a i{
+       font-size: 1.2rem;
+       padding: 3px 5px 0 0;
+       margin: 0;
+    }
+
+    .career p{
+        font-size: 20px;
+    }
+
+    .career .education ul li{
+        font-size: 20px;
+    }
+
+    .career .tech-skills .ts{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .career .tech-skills .ts ul li{
+        font-size: 20px;
+    }
+
+    .career .cert-int .ci ul li{
+        font-size: 20px;
+    }
+
+    .career .projects .proj1 .cont a,span{
+        font-size: 20px;
+    }
+    .career .projects .proj2 .cont a,span{
+        font-size: 20px;
+    }
+    .career .projects .proj1 ul li{
+        font-size: 20px;
+    }
+    .career .projects .proj2 ul li{
+        font-size: 20px;
+    }
+
+    .career .extra .ec ul li{
+        font-size: 20px;
+    }
+    .career .str-hob .sh{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .career .str-hob .sh ul li{
+        font-size: 20px;
+    }
+
+    .career .personal-details .pd ul li{
+        font-size: 20px;
+    }
+
+    .declaration p{
+        font-size: 20px;
+    }
 }
