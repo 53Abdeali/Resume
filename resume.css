@@ -1,0 +1,256 @@
+h1{
+    color: white;
+    background-color: rgb(58, 47, 58);
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 5%;
+    border: 2px solid black;
+    font-size: 35px;
+}
+
+.contact{
+    margin: 5px 5%;
+    border: 2px solid black;
+
+}
+.contact h2{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(58, 47, 58);
+    border-bottom: 2px solid black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+.contact .info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contact ul{
+    margin: 0;
+}
+
+.contact ul li{
+    list-style: none;
+    margin: 10px;
+}
+.contact ul li a{
+    text-decoration: none;
+    display: flex;
+    justify-content:start;
+    color: rgb(58, 47, 58);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact ul li a i{
+   font-size: 20px;
+   padding: 3px 5px 0 0;
+   line-break:inherit;
+}
+
+.career{
+    margin: 5px 5%;
+    border: 2px solid black;
+}
+.career h2{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(58, 47, 58);
+    border-bottom: 2px solid black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+.career p{
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    justify-content:start;
+    color: rgb(58, 47, 58);
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.career .education h2{
+    border-top: 2px solid black;
+}
+
+.career .education ul{
+    margin: 0;
+}
+.career .education ul li{
+    margin: 8px;
+    list-style: square;
+    color: rgb(58, 47, 58);
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.career .tech-skills h2{
+    border-top: 2px solid black;
+}
+
+.career .tech-skills .ts{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.career .tech-skills .ts ul h3{
+    margin: 0;
+    padding: 0;
+    color: rgb(58, 47, 58);
+    font-size: 25px;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.career .tech-skills .ts ul li{
+    list-style: square;
+    color: rgb(58, 47, 58);
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.career .cert-int h2{
+    border-top: 2px solid black;
+}
+
+.career .cert-int .ci ul li{
+    list-style: square;
+    color: rgb(58, 47, 58);
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.career .projects h2{
+    border-top: 2px solid black;
+}
+.career .projects h3{
+    margin: 10px 0 0 10px;
+    padding: 0 10px 0 10px;
+    background-color: rgb(58, 47, 58);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 600;
+    display: inline-block;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.career .projects .proj1{
+    border-bottom: 2px solid rgb(58, 47, 58);
+    border-bottom-style: dashed;
+}
+
+.career .projects .proj2{
+    border-bottom: 2px solid rgb(58, 47, 58);
+    border-bottom-style: dashed;
+}
+
+.career .projects .proj1 .cont, .career .projects .proj2 .cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.career .projects .proj1 .cont a,span{
+    text-decoration: none;
+    color: rgb(58, 47, 58);
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.career .projects .proj2 .cont a,span{
+    text-decoration: none;
+    color: rgb(58, 47, 58);
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.career .projects .proj1 ul li{
+    list-style: square;
+    color: rgb(58, 47, 58);
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.career .projects .proj2 ul li{
+    list-style: square;
+    color: rgb(58, 47, 58);
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.career .extra h2{
+    border-top: 2px solid black;
+    margin-top: 5px;
+}
+
+.career .extra .ec ul li{
+    list-style: square;
+    color: rgb(58, 47, 58);
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.career .str-hob h2{
+    border-top: 2px solid black;
+}
+
+.career .str-hob .sh{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.career .str-hob .sh ul h3{
+    margin: 0;
+    padding: 0;
+    color: rgb(58, 47, 58);
+    font-size: 25px;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.career .str-hob .sh ul li{
+    list-style: square;
+    color: rgb(58, 47, 58);
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.career .personal-details h2{
+    border-top: 2px solid black;
+}
+
+.career .personal-details .pd ul li{
+    list-style: square;
+    color: rgb(58, 47, 58);
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
